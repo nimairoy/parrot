@@ -1,0 +1,131 @@
+@font-face {
+	font-family: ;
+	src: url();
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+
+/*
+=============================================
+Header Style
+=============================================
+*/
+.navbar{
+ padding-top: 30px;
+}
+.logo{
+	width: 80px;
+}
+.menu_icon{
+	width: 30px;
+	cursor: pointer;
+}
+.content{
+	margin-top: 45%;
+}
+.content h2{
+	font-size: 45px;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+.content span{
+	color: #ff5174;
+}
+.content p{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 20px 0;
+	color: #adadad;
+}
+.arrow{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ff5174;
+	padding: 7px 0;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.arrow img{
+	width: 25px;
+}
+.arts{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#picture{
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+.controller{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.controller ul li{
+	list-style: none;
+	color: #fff;
+	line-height: 50px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 30px;
+	display: block;
+	margin-bottom: 20px;
+}
+.controller ul li::after,
+.controller .active::after{
+	content: '';
+	width: 2px;
+	height: 50px;
+	background: #a2a2a2;
+	position: absolute;
+	left: 0;
+}
+.controller .active::after{
+	background: #ff5174;
+}
+.controller .active{
+	color: #000;
+}
+/*
+=============================================
+About Area Style
+=============================================
+*/
+
+
+
+/*=============================================
+Service Area Style
+=============================================*/
+
+
+
+/*
+=============================================
+Portfolio Area Style
+=============================================
+*/
+
+
+
+/*
+=============================================
+Contact Area Style
+=============================================
+*/
+
+
+
+/*
+=============================================
+Footer Area Style
+=============================================
+*/
